@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(238, 211, 215);
+    color: white;
+}
+
+header{
+    /* background-image: url(car.jpeg); */
+    background-color:rgb(241, 159, 172);
+    padding:20px;
+}
+header h1{
+    color:rgb(238, 61, 90);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100px;
+    margin:0;
+}
+nav ul{
+    list-style:none;
+    margin:0;
+    padding:40px;
+    display:flex;
+    gap: 400px;
+    margin-left:150px;
+}
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    font-size: 30px;
+}
+nav ul li a:hover{
+    color:rgb(234, 27, 61);
+    font-size: 50px;
+}
+
+img{
+    border-radius: 30px;
+    width: 400px;
+    text-align: center;
+}
+.imgContianr{
+    text-align: center;
+}
+
+button{
+    background-color: pink;
+    border-radius: 30px;
+    font-size: 20px;
+}
+button:hover{
+    font-size: 40px;
+    background-color: rgb(233, 34, 67);
+}
+
+.contact{
+    background-color: rgb(241, 159, 172);
+    color: black;
+}
+
